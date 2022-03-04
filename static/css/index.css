@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=IBM+Plex+Sans+Thai+Looped&family=Inter&family=Montserrat:wght@400;700&family=Nunito&family=Open+Sans&family=Poppins&family=Roboto&family=Sen&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
