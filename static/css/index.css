@@ -2,8 +2,46 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
+}
+
+p {
+    font-size: smaller;
 }
 
 * {
     box-sizing: border-box;
+}
+.landing-section {
+background-color: #395B64;
+color: #fff;
+height: 28rem;
+padding: 1%;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doctor {
+    width: 70%;
+}
+
+.heading {
+    font-size: 4rem;
+}
+
+input[type=text]{
+    background: none;
+    border-radius: 25px;
+    border: solid #fff 2px;
+    padding: 1%;
+    padding-left: 1%;
+}
+
+::placeholder {
+    font-size: x-small;
+    color: white;
 }

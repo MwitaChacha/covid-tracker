@@ -2,14 +2,17 @@
 {% load static %}
 {% block content %}
 
-<div class="container-fluid">
-    <div class="container">
+<div class="container-fluid landing-section">
+    <div class="container d-flex justify-content-around intro">
         <div class="container">
-<h1>COVID-19 <br>TRACKER</h1>
-<p>Be on the know with regards to the Corona Virus</p>
+            <h1 class="heading pt-3">COVID-19 <br>TRACKER</h1>
+            <p class="py-3">Be on the know with regards to the Corona Virus</p>
+            <form action="get">
+                <input type="text" name="country" id="country" placeholder="   Search for a country">
+            </form>
         </div>
-        <div class="container">
-            
+        <div class="container d-none d-md-block d-sm-block d-lg-block">
+            <img class='img-fluid doctor pt-3'  src="{% static 'images/Doctor.png'%}" alt="">
         </div>
     </div>
 </div>
