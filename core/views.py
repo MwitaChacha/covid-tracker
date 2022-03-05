@@ -17,7 +17,7 @@ def index(request):
     recovered = data['confirmed_diff']
     deaths = data['deaths']
     active = data['active']
-    fatality = data['fatality']
+    fatality = data['fatality_rate']
 
     context = {
         'update':update, 'confirmed':confirmed, 'recovered':recovered, 'deaths':deaths, 'active':active, 'fatality':fatality
