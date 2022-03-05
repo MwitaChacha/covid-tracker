@@ -19,11 +19,11 @@ height: 28rem;
 padding: 1%;
 }
 
-.intro {
+/* .intro {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 .doctor {
     width: 70%;
